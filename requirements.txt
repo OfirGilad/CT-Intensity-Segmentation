@@ -1,0 +1,8 @@
+numpy
+nibabel
+scipy
+matplotlib
+scikit-image
+scikit-learn
+
+# Python 3.9
