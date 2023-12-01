@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
         overlay_plot(ct_numpy, vessels_only)
         plt.savefig(overlay_name)
-        plt.close()
+        plt.close('all')
 
         save_nifty(vessels_only, vessel_name, affine=ct_img.affine)
 
