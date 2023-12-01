@@ -30,9 +30,9 @@ if __name__ == "__main__":
         save_nifty(lung_mask, out_mask_name, ct_img.affine)
 
         lung_area = compute_area(lung_mask, find_pix_dim(ct_img))
-        lung_areas.append([img_name,lung_area]) # int is ok since the units are already mm^2
+        lung_areas.append([img_name, lung_area])  # int is ok since the units are already mm^2
 
-
+    # Save data to csv file
     with myFile:
         writer = csv.writer(myFile)
         writer.writerows(lung_areas)
