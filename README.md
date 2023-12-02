@@ -16,3 +16,8 @@ To understand the codebase, read the related article at [AI Summer](https://thea
 ### View my results
 To view my results, unzip the results folder
 
+---
+
+# CT-Intensity-Segmentation
+
+Original GitHub: https://github.com/black0017/ct-intensity-segmentation
